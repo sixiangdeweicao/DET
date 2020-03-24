@@ -8,3 +8,42 @@ DET is compateible with Python3.x. You can install the requirements for your ver
 ```
 pip3 install argparse
 ```
+
+## zmapv6 installation (ask in IPv4 network)
+
+###  Building from Source
+
+```
+git clone https://github.com/tumi8/zmap.git
+cd zmap
+```
+### Installing ZMap Dependencies
+
+On Debian-based systems (including Ubuntu):
+```
+sudo apt-get install build-essential cmake libgmp3-dev gengetopt libpcap-dev flex byacc libjson-c-dev pkg-config libunistring-dev
+```
+
+On RHEL- and Fedora-based systems (including CentOS):
+```
+sudo yum install cmake gmp-devel gengetopt libpcap-devel flex byacc json-c-devel libunistring-devel
+```
+
+On macOS systems (using Homebrew):
+```
+brew install pkg-config cmake gmp gengetopt json-c byacc libdnet libunistring
+```
+
+### Building and Installing ZMap
+
+```
+cmake .
+make -j4
+sudo make install
+```
+
+
+
+
+
+
