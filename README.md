@@ -44,12 +44,12 @@ sudo make install
 
 ## Usage
 Parameter meaning introduction：
-* input： type=str, input IPv6 addresses
-* output：type=str,output directory name
-* budget：type=int,the upperbound of scan times
-* IPv6：   type=str,local IPv6 address
-* delta：  type=int, default =16, the base of address
-* beta：   type=int, default=16,the max of node
+* input:  type=str, input IPv6 addresses
+* output: type=str,output directory name
+* budget: type=int,the upperbound of scan times
+* IPv6:   type=str,local IPv6 address
+* delta:  type=int, default =16, the base of address
+* beta:   type=int, default=16,the max of node
 
 running example
 ```
