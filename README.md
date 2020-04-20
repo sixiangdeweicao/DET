@@ -57,7 +57,9 @@ sudo python3 --input=DataDir/yourdata --output=StoreDir --budget=500  --IPv6=loa
 ```
 # Data
 In order to support IPv6 network related research, we provide more data about hitlist(active IPv6 addresses) and address fingerprint information.
+
 If you want more data, you can send a request to sgl18@mails.tsinghua.edu.cn. 
+
 The request should include the work department, the purpose of data usage, and the data content obtained.
 
 
