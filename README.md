@@ -55,8 +55,10 @@ running example
 ```
 sudo python3 --input=DataDir/yourdata --output=StoreDir --budget=500  --IPv6=loacl Ipv6 address --delta=16 --beta=16
 ```
+# Data
 
-
+If you want more data about active IPv6 addresses or fingerprint information of IPv6 addresses, you can send a request to sgl18@mails.tsinghua.edu.cn. 
+The request should include the work department, the purpose of data usage, and the data content obtained.
 
 
 
