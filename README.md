@@ -53,7 +53,7 @@ Parameter meaning introduction：
 
 running example
 ```
-sudo python3 --input=DataDir/yourdata --output=StoreDir --budget=500  --IPv6=loacl Ipv6 address --delta=16 --beta=16
+sudo python3 DynamicScan.py --input=DataDir/yourdata --output=StoreDir --budget=500  --IPv6=loacl Ipv6 address --delta=16 --beta=16
 ```
 # Data
 In order to support IPv6 network related research, we provide more data about hitlist(active IPv6 addresses) and address fingerprint information.
