@@ -56,11 +56,15 @@ running example
 sudo python3 DynamicScan.py --input=DataDir/yourdata --output=StoreDir --budget=500  --IPv6=local Ipv6 address --delta=16 --beta=16
 ```
 # Data
-In order to support IPv6 network related research, we provide more data about hitlist(active IPv6 addresses) and address fingerprint information.
 
-If you want more data, you can send a request to sgl18@mails.tsinghua.edu.cn. 
+Data Access: https://addrminer.github.io/IPv6_hitlist.github.io/#
+
+To support IPv6 network-related research, we provide more data about hitlist(active IPv6 addresses) and address fingerprint information.
+
+If you want more data, you can send a request to songgl@mail.zgclab.edu.cn
 
 The request should include the work department, the purpose of data usage, and the data content obtained.
+
 
 
 
